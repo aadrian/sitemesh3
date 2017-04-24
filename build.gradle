@@ -14,4 +14,7 @@ subprojects {
       mavenLocal()
       mavenCentral() // Use Maven Central Repo to search for Dependencies
   }
+  
+  // JavaDoc 8 problems
+  javadoc { failOnError false }
 }
